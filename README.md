@@ -41,7 +41,7 @@ After installing the app you are ready to use it. The *.json* file will be creat
 
 To reset the attendance data, just delete the *.json* file in PC, and reinstall the app in Mobile.
 
-Any bugs or suggestions are Welcome, just mail me 😊
+Any bugs or improvement suggestions are Welcome, just mail me 😊
 
 Email - *swarajsgurav@gmail.com*
 
