@@ -25,11 +25,13 @@ Deleting the *.json* file will result in loss of attendance data.
 Requires Android 13 or above to run the app.
 *Currently working on porting the mobile app to flutter 😁*
 
-Download and open the [Mobile APK Downloader.html](https://github.com/Swaraj-SG/Attendance-Bunker/blob/main/Mobile%20APK%20Downloader.html)
-
-**OR** 
 
 Just **[Click Here](https://drive.google.com/uc?export=download&id=16sMXWmMssNEjsiby6hb6qbVvQrFAv2z-)** to download the file directly from Google Drive. You can also click the link in the description of this repository.
+
+**OR**
+
+Download and open the [Mobile APK Downloader.html](https://github.com/Swaraj-SG/Attendance-Bunker/blob/main/Mobile%20APK%20Downloader.html)
+
 
 Install the application on your phone.
 
