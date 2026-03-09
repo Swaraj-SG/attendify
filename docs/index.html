@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Attendance Bunker - Swaraj-SG</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- navbar, fixed, static, reacts -->
+  <header class="navbar">
+    <a class="profile" href="https://github.com/Swaraj-SG " target="_blank" rel="noopener" title="Click to view GitHub for more such tools">
+      <img src="https://avatars.githubusercontent.com/u/170101789?v=4" alt="profile" class="profile-pic"/>
+      <div class="profile-text">
+        <h2>Swaraj-SG</h2>
+        <p>Developer • Tools & Apps</p>
+      </div>
+    </a>
+
+    <div class="nav-right">
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#how">How It Works</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#download">Download</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="socials">
+        <a href="https://github.com/Swaraj-SG" class="github" target="_blank" rel="noopener" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://instagram.com/g_swaraj__" class="insta" target="_blank" rel="noopener" title="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://buymeacoffee.com/swarajsg" class="donate" target="_blank" rel="noopener" title="Donate - Buy Me a Coffee">
+          <i class="fa-solid fa-heart"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- dashboard, initial -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <font color="#FFFECF"><h1>Attendance Bunker</h1></font>
+      <p class="subtitle">Your personal attendance tracker now in your hands — simple, fast, and private. Keeps you updated on your attendance data and let you know how many lectures you can bunk.<br>Works on PC & Android.</p>
+
+      <div class="buttons">
+        <a href="https://github.com/Swaraj-SG/Attendance-Bunker/releases/download/LatestRelease/Attendance_Bunker.exe" class="btn pc" target="_blank" rel="noopener">
+          <i class="fa-solid fa-desktop"></i>
+          Download for Windows
+          (Latest Release)
+        </a>
+
+        <a href="https://drive.google.com/uc?export=download&id=16sMXWmMssNEjsiby6hb6qbVvQrFAv2z-" class="btn android" target="_blank" rel="noopener">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          Download for Android
+        </a>
+
+        <a href="https://github.com/Swaraj-SG/Attendance-Bunker.git" class="btn github" target="_blank" rel="noopener">
+          <i class="fa-solid fa-code"></i>
+          View Code on GitHub
+        </a>
+      </div>
+
+      <div class="features-mini">
+        <span>🔒 Privacy-first</span>
+        <span>⚡ Lightweight</span>
+        <span>✔ Accurate</span>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="webcache\icon.ico.png" alt="big icon" class="big-icon" />
+    </div>
+  </section>
+
+  <!-- features, brief props -->
+  <section id="features" class="page features-section">
+    <div class="section-inner">
+      <h2 class="section-title">Features</h2>
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">😁</div>
+          <h3>Real Prediction</h3>
+          <p>Predicts future potential lectures which can be bunked. <i>(The number of bunkable lectures may vary in actual number)</i></p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Fast Calculations</h3>
+          <p>Blazing fast calculation speed, and auto saves the entered attendance data.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Secure Storage</h3>
+          <p>Data is stored locally in <i>.json</i> format. Local storage is ideal for people who value privacy.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- how to section, only explanation, will add vids later -->
+  <section id="how" class="page how-section">
+    <div class="how-inner">
+
+      <!-- WILL ADD THIS LATER, JUST A PLACEHOLDER FOR NOW, VIDS SECTION
+      <div class="how-left">
+        <h2 class="small-title">Setup videos</h2>
+        <div class="video-wrap">
+          <iframe src="-----------" title="Setup on PC" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="video-wrap">
+          <iframe src="-----------" title="Setup on Mobile" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      -->
+
+      <div class="how-right">
+        <h2 class="section-title">How it works</h2>
+        <ol class="how-points">
+          <li>It gets installed and creates a <i>.json</i> file 📥</li>
+          <li>Saves the attendance data in readable format 🧾</li>
+          <li>Anyone can reset the attendance data by deleting the <i>.json</i> file. The app will create it again. 🗂️</li>
+          <li>The app uses a speacial formula to calculate the attendance and displays it along with future possible bunks. ⚙️</li>
+          <li>Shows the total % of attendance with color warnings in real time. 🔄</li>
+          <li>Calculates the attendance percentages on 75% as target due to most colleges/universities have 75% attendance requirement. 📊</li>
+        </ol>
+
+        <p class="note">Note : Follow the videos on the left for step-by-step install 🎬</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ss -->
+  <section id="screenshots" class="page screenshots-section">
+    <div class="section-inner">
+      <h2 class="section-title">Screenshots</h2>
+
+      <div class="screenshots-static">
+        <img src="webcache\pc_ss_1.png" class="ss-desktop" alt="desktop screenshot" title="Screenshot taken on Windows PC">
+        <div class="ss-mobiles">
+          <img src="--------------" class="ss-mobile" alt="">
+          <img src="--------------" class="ss-mobile" alt="">
+        </div>
+      </div>
+
+      <p class="carousel-hint">Easy UI for easy understanding.</p>
+    </div>
+  </section>
+
+  <!-- download section -->
+  <section id="download" class="page download-section">
+    <div class="section-inner">
+      <h2 class="section-title">Download</h2>
+      <div class="download-inner">
+      <div class="col left-col">
+        <h2>Windows</h2>
+
+        <div class="version-list">
+          <div class="version-row">
+            <div>
+              <strong><font color="#F28674">(Recommended)</font> Version - 1.2</strong> <small>Latest build</small>
+              <p class="muted">Stable build with bug fixes</p>
+            </div>
+            <div><a href="https://github.com/Swaraj-SG/Attendance-Bunker/releases/download/LatestRelease/Attendance_Bunker.exe" class="small-btn" target="_blank" rel="noopener" title="Download latest version for Windows PC"><i class="fa-solid fa-download" title="Download latest version for Windows PC"></i> Download</a></div>
+          </div>
+
+          <div class="version-row">
+            <div>
+              <strong>Version - 1.1</strong> <small>Previous</small>
+              <p class="muted">Initial Build, simple UI</p>
+            </div>
+            <div><a href="https://github.com/Swaraj-SG/Attendance-Bunker/releases/download/AttendanceBunker/Attendance.Bunker.exe" class="small-btn" target="_blank" rel="noopener" title="Download v1.1 (old version) for Windows PC"><i class="fa-solid fa-download" title="Download v1.1 (old version) for Windows PC"></i> Download</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col right-col">
+        <h2>Android</h2>
+
+        <div class="version-list">
+          <div class="version-row">
+            <div>
+              <strong>Version - 1.0</strong> <small>Initial release</small>
+              <p class="muted">First release for Android devices</p>
+            </div>
+            <div><a href="https://drive.google.com/uc?export=download&id=16sMXWmMssNEjsiby6hb6qbVvQrFAv2z-" class="small-btn" target="_blank" rel="noopener" title="Download .apk for Mobile"><i class="fa-solid fa-download" title="Download .apk for Mobile"></i> Download</a></div>
+          </div>
+
+          <font color="gray"><div class="version-row coming-soon">
+            <div>
+            <strong>Version - 2.0</strong> <small>Coming Soon</small>
+              <p class="muted">Major UI overhaul</p>
+            </div>
+            <div><button class="small-btn disabled" title="Working on it, Coming Soon !"><i class="fa-solid fa-hourglass" title="Working on it, Coming Soon !"></i> Coming Soon</button></div>
+          </div></font>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section, prop of app in detail -->
+  <section id="about" class="page about-section">
+    <div class="section-inner about-inner">
+      <div class="about-left">
+        <h2 class="section-title">About Attendance Bunker</h2>
+
+        <p class="lead">Attendance Bunker is a focused tool to help students manage their attendance accurately and privately.<br>Built with simplicity and speed in mind.</p>
+
+        <h3>Key properties</h3>
+        <ul>
+          <li>Calculates attendance fast and accurately.</li>
+          <li>Auto-saves the entered attendance data.</li>
+          <li>Offline functionality — stores the data locally on device.</li>
+          <li>Simple and user-friendly UI.</li>
+        </ul>
+
+        <h3>Future ideas</h3>
+        <ul>
+          <li>Realtime sync across multiple devices.</li>
+          <li>To shrink the app size and overhaul the UI.</li>
+          <li>To create import/export feature for attandance data.</li>
+        </ul>
+      </div>
+
+      <aside class="about-right">
+        <div class="card">
+          <h4>Report a bug</h4>
+          <p>Found an issue ? Please report it so I can fix it fast.</p>
+          <a class="side-btn" href="mailto:swarajsgurav@gmail.com?subject=Bug%20Report%20-%20Attendance%20Bunker" target="_blank" title="Mail me the Bug"><i class="fa-solid fa-bug" title="Mail me the Bug"></i> Report a bug</a>
+        </div>
+
+        <div class="card">
+          <h4>Suggest a feature</h4>
+          <p>Have a cool idea ? Send it over — I read every suggestion. 💡</p>
+          <a class="side-btn" href="mailto:swarajsgurav@gmail.com?subject=Feature%20Suggestion%20-%20Attendance%20Bunker" target="_blank" title="Mail me the suggestion"><i class="fa-solid fa-envelope" title="Mail me the suggestion"></i> Suggest a feature</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- footer, last part, floating, static to end -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <a href="https://github.com/Swaraj-SG" target="_blank" rel="noopener" class="footer-profile" title="Click to view GitHub for more such tools">
+        <img src="https://avatars.githubusercontent.com/u/170101789?v=4" alt="profile small" class="footer-pic"/>
+        <div>
+          <strong>Swaraj-SG Github</strong>
+        </div>
+        </a><br>
+        <p class="muted">© 2026<span id="year"></span> Swaraj-SG — All rights reserved</p>
+      </div>
+      <div class="footer-right">
+        <p class="small-bio"><BR>Hi There, I'm Swaraj. Programmer by brain, Gamer from heart ❤️<br>Loves to code, game, and edit 🚀<br>Checkout my Github profile for more such tools 😊</p>
+        <div class="footer-links">
+          <a href="https://github.com/Swaraj-SG" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com/g_swaraj__" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="mailto:swarajsgurav@gmail.com" target="_blank" rel="noopener" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://buymeacoffee.com/swarajsg" target="_blank" rel="noopener" title="Donate - Buy Me a Coffee"><i class="fa-solid fa-heart"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- last edited 09/03/2026 -->
+  <script src="script.js"></script>
+</body>
+</html>
