@@ -2,9 +2,9 @@ import tkinter as tk
 from tkinter import messagebox
 import json, os, math
 from datetime import datetime
-#last edited on 04/03/26
+#last edited on 20/3/26
 
-APP_NAME = "Attendance Bunker"
+APP_NAME = "Attendify"
 DATA_FILE = "attendance_data.json"
 TARGET = 75
 
@@ -21,7 +21,7 @@ def save_data(data):
 
 data = load_data()
 
-#logic - it sucks man :( invested most of the time in this
+#logic - it sucks man :(
 def calculate():
     try:
         attended = attended_entry.get().strip()
@@ -49,7 +49,6 @@ def calculate():
             raise ValueError("Attendance for this date already exists")
 
         # Save date-wise data
-        # was first subject wise, but i didnt liked the idea
         data[date_key] = {
             "attended": attended,
             "total": total
@@ -79,7 +78,7 @@ def calculate():
         messagebox.showerror("Error", "Something went wrong")
 
 #gui
-#fixed app size due to mobile port (later)
+#fixed app size
 root = tk.Tk()
 root.title(APP_NAME)
 root.geometry("500x650")
@@ -87,7 +86,7 @@ root.resizable(False, False)
 root.configure(bg="black")
 
 #header and title
-tk.Label(root, text="Attendance Bunker",
+tk.Label(root, text="Attendify",
          font=("Segoe UI", 26, "bold"),
          fg="white", bg="black").place(x=40, y=30)
 
@@ -160,4 +159,3 @@ bunk_value = tk.Label(root, text="—",
 bunk_value.place(x=380, y=485)
 
 root.mainloop()
-# end - debug, just dont break it :)
