@@ -1,11 +1,12 @@
-# Attendance Bunker
+# Attendify - Attendance tracker
+**Atendance Bunker is now Attendify !**
 
-A app which helps to track attendance of a student and will calculate the future possible class bunks.
+A app which helps to track attendance and calculates the future possible class bunks.
 Calculated as per 75% attendance.
 
 *(The calculated number of bunks are the minimum bunks possible, actual number may vary and may be greater than the predicted one)*
 
-**For detailed information, visit the website - [Attendance Bunker](https://swaraj-sg.github.io/Attendance-Bunker/)**
+**For detailed information, visit the website - [Attendify](https://swaraj-sg.github.io/attendify/)**
 
 ---
 
@@ -24,7 +25,7 @@ Deleting the *.json* file will result in loss of attendance data.
 ---
 
 ## Mobile Release
-*Requires Android 13 or above to run the app.*
+*Requires Android 10 or above to run the app.*
 
 Just **[Click Here](https://github.com/Swaraj-SG/Attendance-Bunker/raw/refs/heads/main/attendance_bunker_installer.apk)** to download the file directly.
 
@@ -47,4 +48,4 @@ Any bugs or improvement suggestions are Welcome, just mail me 😊
 
 Email - *swarajsgurav@gmail.com*
 
-Website - [Attendance Bunker](https://swaraj-sg.github.io/Attendance-Bunker/)
+Website - [Attendify](https://swaraj-sg.github.io/attendify/)
