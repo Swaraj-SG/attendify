@@ -1,5 +1,5 @@
 # Attendify - Attendance tracker
-**Atendance Bunker is now Attendify !**
+  **Atendance Bunker is now Attendify !**
 
 A app which helps to track attendance and calculates the future possible class bunks.
 Calculated as per 75% attendance.
@@ -11,6 +11,7 @@ Calculated as per 75% attendance.
 ---
 
 ## PC Release
+*Requires Windows 10 or above.*
 
 Just download the **.exe** file and run it. (Download the latest release for better experience)
 
@@ -27,11 +28,11 @@ Deleting the *.json* file will result in loss of attendance data.
 ## Mobile Release
 *Requires Android 10 or above to run the app.*
 
-Just **[Click Here](https://github.com/Swaraj-SG/Attendance-Bunker/raw/refs/heads/main/attendance_bunker_installer.apk)** to download the file directly.
+Just **[Click Here](https://github.com/Swaraj-SG/attendify/raw/main/attendify_mobile.apk)** to download the file directly.
 
 **OR**
 
-Download and run the [attendance_bunker.apk](attendance_bunker_installer.apk)
+Download from the files above or the Releases tab aside.
 
 
 Install the application on your phone.
@@ -42,10 +43,12 @@ After installing the app you are ready to use it. The *.json* file will be creat
 
 ---
 
-To reset the attendance data, just delete the *.json* file in PC, and reinstall the app in Mobile.
+To reset the attendance data, just delete the *.json* file in PC, and/or reinstall the app in Mobile.
 
 Any bugs or improvement suggestions are Welcome, just mail me 😊
 
+For previous versions of apps, visit the website !
+
 Email - *swarajsgurav@gmail.com*
 
-Website - [Attendify](https://swaraj-sg.github.io/attendify/)
+Website - [Attendify - Attendance Tracker](https://swaraj-sg.github.io/attendify/)
