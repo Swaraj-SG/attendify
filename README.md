@@ -4,7 +4,7 @@
 A app which helps to track attendance and calculates the future possible class bunks.
 Calculated as per 75% attendance.
 
-*(The calculated number of bunks are the minimum bunks possible, actual number may vary and may be greater than the predicted one)*
+*(The calculated number of bunks are the minimum bunks possible, actual number may vary and may be greater (but not lower) than the predicted one)*
 
 **For detailed information, visit the website - [Attendify](https://swaraj-sg.github.io/attendify/)**
 
