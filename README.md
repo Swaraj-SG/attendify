@@ -1,5 +1,4 @@
 # Attendify - Attendance tracker
-  **Atendance Bunker is now Attendify !**
 
 A app which helps to track attendance and calculates the future possible class bunks.
 Calculated as per 75% attendance.
